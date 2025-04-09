@@ -1,0 +1,8 @@
+tvdatafeed
+pandas
+click
+
+[dev]
+pytest
+black
+flake8
