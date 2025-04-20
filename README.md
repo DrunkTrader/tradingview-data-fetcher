@@ -69,22 +69,22 @@ python -m tradingview-data-fetcher.src.cli fetch [OPTIONS]
 
 #### Fetch daily data for LTCUSDT from Binance
 ```
-python -m tradingview-data-fetcher.src.cli fetch --symbol LTCUSDT --exchange BINANCE --interval 1d --output data/ltc_daily.csv
+python -m src.cli fetch --symbol LTCUSDT --exchange BINANCE --interval 1d --output data/ltc_daily.csv
 ```
 
 #### Fetch 5-minute data for NIFTY from NSE
 ```
-python -m tradingview-data-fetcher.src.cli fetch --symbol NIFTY --exchange NSE --interval 5m --output data/nifty_5min.csv
+python -m src.cli fetch --symbol NIFTY --exchange NSE --interval 5m --output data/nifty_5min.csv
 ```
 
 #### Fetch hourly futures data for crude oil in JSON format
 ```
-python -m tradingview-data-fetcher.src.cli fetch --symbol CRUDEOIL --exchange MCX --interval 1h --futures --contract 1 --output data/crudeoil_futures_1h.json --format json
+python -m src.cli fetch --symbol CRUDEOIL --exchange MCX --interval 1h --futures --contract 1 --output data/crudeoil_futures_1h.json --format json
 ```
 
 #### Display information about available options
 ```
-python -m tradingview-data-fetcher.src.cli info
+python -m src.cli info
 ```
 
 ## Directory Structure

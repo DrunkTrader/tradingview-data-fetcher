@@ -1,18 +1,21 @@
 Metadata-Version: 2.2
 Name: tradingview-data-fetcher
 Version: 0.1.0
-Summary: A CLI tool for extracting financial data from TradingView
-Author: Neeraj Kumar
-Author-email: neerajrajputa786@example.com
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
-Requires-Dist: pandas
-Requires-Dist: tvDatafeed
-Dynamic: author
-Dynamic: author-email
-Dynamic: classifier
-Dynamic: requires-dist
-Dynamic: requires-python
-Dynamic: summary
+Summary: "A CLI tool for extracting financial data from TradingView"
+Author: "Neeraj Kumar"
+Author-email: "neerajrajputa786@gmail.com"
+Classifier: 
+  - "Programming Language :: Python :: 3"
+  - "License :: OSI Approved :: MIT License"
+  - "Operating System :: OS Independent"
+Requires-Python: ">=3.6"
+Requires-Dist: 
+  - pandas
+  - tvDatafeed
+Dynamic:
+  - author
+  - author-email
+  - classifier
+  - requires-dist
+  - requires-python
+  - summary
