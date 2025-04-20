@@ -27,7 +27,7 @@ The TradingView Data Fetcher is a powerful command-line interface (CLI) tool tha
 ### Setup
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/tradingview-data-fetcher.git
+   git clone https://github.com/drunktrader/tradingview-data-fetcher.git
    cd tradingview-data-fetcher
    ```
 
