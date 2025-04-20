@@ -45,7 +45,7 @@ The TradingView Data Fetcher is a powerful command-line interface (CLI) tool tha
 
 ### Basic Command Structure
 ```
-python -m tradingview-data-fetcher.src.cli fetch [OPTIONS]
+python -m src.cli fetch [OPTIONS]
 ```
 
 ### Available Commands
